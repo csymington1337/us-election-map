@@ -23,16 +23,10 @@ var startCampaign = function(name, partyColor) {
 };
   
 var biden = startCampaign("Joe Biden", [19, 19, 103]);
-	biden.results = [4, 2, 4, 4, 22, 3, 3, 1, 2, 15, 8, 1, 3, 9, 0, 6, 1, 5, 5, 1, 3, 7, 8, 1, 3, 3, 1, 3, 2, 2, 6, 2, 14, 0, 1, 6, 7, 3, 7, 3, 6, 1, 3, 17, 3, 1, 2, 11, 2, 3, 1];
-	biden.results[9] = 28;
-	biden.results[4] = 38;
-	biden.results[43] = 27;
+	biden.results = [0, 0, 11, 0, 55, 9, 7, 3, 3, 0, 16, 4, 0, 20, 0, 0, 0, 0, 0, 3, 10, 11, 16, 10, 0, 0, 0, 1, 6, 4, 14, 5, 29, 0, 0, 0, 0, 7, 20, 4, 0, 0, 0, 0, 0, 3, 13, 12, 0, 10, 0];
   
 var trump = startCampaign("Donald Trump", [204, 0, 0]);
-	trump.results = [5, 1, 7, 2, 33, 6, 4, 2, 1, 14, 8, 3, 1, 11, 11, 0, 5, 3, 3, 3, 7, 4, 8, 9, 3, 7, 2, 2, 4, 2, 8, 3, 15, 15, 2, 12, 0, 4, 13, 1, 3, 2, 8, 21, 3, 2, 11, 1, 3, 7, 2];
-	trump.results[9] = 1;
-	trump.results[4] = 17;
-	trump.results[43] = 11;
+	trump.results = [9, 3, 0, 6, 0, 0, 0, 0, 0, 29, 0, 0, 4, 0, 11, 6, 6, 8, 8, 1, 0, 0, 0, 0, 6, 10, 3, 4, 0, 0, 0, 0, 0, 15, 3, 18, 7, 0, 0, 0, 9, 3, 11, 38, 6, 0, 0, 0, 5, 0, 3];
 
 console.log("Joe Biden's color is: " + biden.partyColor);
 console.log("Donald Trump's color is: " + trump.partyColor);
